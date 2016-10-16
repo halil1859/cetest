@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 body {
-  margin: 0px;
+  margin: 50px 0px 0px;
 /*  padding-top: 70px; */
 }
 
@@ -33,6 +33,13 @@ body {
   clear: both;
   margin-top: -40px;
 }
+.navbar-collapse {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+li {
+  border: solid 1px black;
+}
 #collapsable-nav a { /* Collapsed nav menu text */
   font-size: 1.2em;
 }
@@ -41,12 +48,13 @@ body {
   margin-right: 5px;
 }
 #nav-list {
-  margin-top: 10px;
+  margin: 0;
   background-color: white;
 }
 #nav-list a {
   color: black;
   text-align: center;
+  margin: 0;
 }
 #nav-list a:hover {
   background-color:black;
@@ -55,4 +63,10 @@ body {
 }
 #nav-list a span {
   font-size: 1.8em;
+}
+.row {
+  background-color: grey;
+  margin: 10px;
+  padding: 0px 10px;
+
 }
